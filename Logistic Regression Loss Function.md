@@ -46,4 +46,5 @@ Since we want to minimize the loss function (rather than maximize the likelihood
 To obtain the loss function that we use for logistic regression, we usually average the negative log-likelihood over all observations, which gives us the Cross-Entropy Loss or Log Loss:
 
 ![](https://latex.codecogs.com/gif.latex?%5C%20%5Ctext%7BLoss%7D%28%5Ctheta%29%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%20%5Ctext%7BNLL%7D%28%5Ctheta%29%20%3D%20-%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%5Cleft%5B%20y_i%20%5Clog%28%5Csigma%28%5Ctheta%5ET%20x_i%29%29%20&plus;%20%281%20-%20y_i%29%20%5Clog%281%20-%20%5Csigma%28%5Ctheta%5ET%20x_i%29%29%20%5Cright%5D%20%5C)
+
 This loss function is what we aim to minimize during the training of a logistic regression model. It's convex, so gradient descent or other optimization algorithms can find the global minimum.
