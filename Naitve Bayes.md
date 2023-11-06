@@ -26,4 +26,4 @@ Then, we just need to count the frequency of each event. So, P(Red|YES) = 3/5, P
 Therefore, the result = 0.024
 
 ## Summary
-This example shows the foundation of Naive Bayes Rule, and we can 
+This example shows the foundation of Naive Bayes Rule, and we can implement Naive Bayes Rule for further classification projects. 
